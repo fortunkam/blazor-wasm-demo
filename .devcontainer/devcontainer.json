@@ -5,10 +5,12 @@
         "ms-dotnettools.csharp"
       ],
 
-      "appPort" : 5001,
+      "appPort" : [5000, 5001],
 
       "settings": {
         "debug.javascript.usePreview": true
-      }
+      },
+
+      "postCreateCommand": "/bin/bash ./.devcontainer/dotnet-install.sh --channel 3.1 --install-dir ~/cli > ~/dotnet-install.log",
       
 }
