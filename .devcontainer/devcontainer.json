@@ -1,0 +1,14 @@
+{
+    "extensions": [
+        "ms-vscode.js-debug-nightly",
+        "ms-vscode.vscode-node-azure-pack",
+        "ms-dotnettools.csharp"
+      ],
+
+      "appPort" : 5001,
+
+      "settings": {
+        "debug.javascript.usePreview": true
+      }
+      
+}
