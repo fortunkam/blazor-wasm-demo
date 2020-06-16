@@ -1,7 +1,8 @@
 {
     "extensions": [
 		"ms-vscode.vscode-node-azure-pack",
-		"ms-dotnettools.csharp"
+		"ms-dotnettools.csharp",
+		"ms-vscode.js-debug-nightly"
 	],
 
       "appPort" : [5000, 5001],
